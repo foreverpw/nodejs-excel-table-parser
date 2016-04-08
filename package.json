@@ -4,12 +4,16 @@
   "description": "parser",
   "main": "parser.js",
   "scripts": {
-    "start":"node parser.js",
+    "start": "node parser.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "pw",
   "license": "ISC",
   "devDependencies": {
     "node-xlsx": "^0.6.0"
+  },
+  "dependencies": {
+    "jaro-winkler": "^0.2.6",
+    "levenshtein": "^1.0.5"
   }
 }
